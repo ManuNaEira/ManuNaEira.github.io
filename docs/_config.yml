@@ -9,7 +9,22 @@
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
 # Defining variables to be used in several places
-linkedin_profile: &linkedin_prof "https://www.linkedin.com/in/manuel-nogueira-outerelo-50549428"
+linkedin_profile: &linkedin_prof
+  label: "LinkedIn"
+  icon: "fab fa-fw fa-linkedin"
+  url: "https://www.linkedin.com/in/manuel-nogueira-outerelo-50549428"
+github_profile: &github_prof
+  label: "GitHub"
+  icon: "fab fa-fw fa-github"
+  url: "https://github.com/ManuNaEira"
+instagram_profile: &instagram_prof
+  label: "Instagram"
+  icon: "fab fa-fw fa-instagram"
+  url: "https://www.instagram.com/manu_na_eira"
+stackoverflow_profile: &stackoverflow_prof
+  label: "StackOverflow"
+  icon:  "fab fa-fw fa-stack-overflow"
+  url: "https://stackoverflow.com/users/3013775/manu-na-eira"
 
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
@@ -75,33 +90,20 @@ author:
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
     #   url: "https://twitter.com/"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: *linkedin_prof
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/ManuNaEira"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/manu_na_eira"
-    - label: "StackOverflow"
-      icon:  "fab fa-fw fa-stack-overflow"
-      url: "https://stackoverflow.com/users/3013775/manu-na-eira"
+    - <<: *linkedin_prof
+    - <<: *github_prof
+    - <<: *instagram_prof
+    - <<: *stackoverflow_prof
 
 footer:
   links:
     # - label: "Twitter"
     #   icon: "fab fa-fw fa-twitter-square"
     #   url: "https://twitter.com/"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: *linkedin_prof
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+    - <<: *linkedin_prof
+    - <<: *github_prof
+    - <<: *instagram_prof
+    - <<: *stackoverflow_prof
 
 defaults:
   # _posts
