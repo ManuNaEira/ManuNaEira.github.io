@@ -9,6 +9,7 @@ tags:
 toc: true
 toc_sticky: true
 mathjax: true
+last_modified_at: 2021-12-07T15:34:30-04:00
 ---
 
 Hello World 😀!
@@ -39,6 +40,15 @@ print_hi('Tom')
 # Math playground.
 When $a \ne 0$, there are two solutions to $ax^2 + bx + c = 0$ and they are:
 \[x = {-b \pm \sqrt{b^2-4ac} \over 2a}\]
+
+\[\begin{multline}
+\shoveleft
+\begin{aligned}
+G_t&=R_{t+1}+\gamma R_{t+2}+\gamma^2 R_{t+3}+\gamma^3 R_{t+4}+...\newline
+&=R_{t+1}+\gamma(R_{t+2}+\gamma R_{t+3}+\gamma^2 R_{t+4})+...\newline
+&=R_{t+1}+\gamma G_{t+1}\newline
+\end{aligned}
+\end{multline}\]
 
 # Toggle list test
 <details>
