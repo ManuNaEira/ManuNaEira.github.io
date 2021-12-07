@@ -33,11 +33,11 @@ Tried using the [minimal-mistakes](https://github.com/mmistakes/minimal-mistakes
 - [x] **Code blocks - Format based on language**
 - [x] **Code blocks - lines**
 - [] **Code blocks - Copy button**
-- [] **Math expressions**
-Not by default. But there is a workaround to achieve it:
-  - Adding Mathjax script to `_includes` folder. [[link 1](http://disq.us/p/27j4kl9)], [[link 2, from the minimal-mistakes theme author](https://github.com/mmistakes/minimal-mistakes/issues/735#issuecomment-269500816)].
+- [x] **Math expressions**
+   Not by default. But there is a workaround to achieve it: Adding Mathjax script to `_includes` folder. [[link 1](http://disq.us/p/27j4kl9)], [[link 2, from the minimal-mistakes theme author](https://github.com/mmistakes/minimal-mistakes/issues/735#issuecomment-269500816)].
 - [] **Toggle sections**
   Partial support. Toggle button is seen but the content inside is not parsed by markdown. We could use the Liquid filter `markdownify` to capture the inside of the toggle section and force it to be parsed as markdown (see [here](https://mmistakes.github.io/minimal-mistakes/post%20formats/post-notice/) an example for callouts/notify sections), but it is not working so far, at least for headings `#`.
+  Another option is to use HTML buttons like shown [here](http://tomnorian.com/toggle-code-display-jekyll.html).
 - [] **Get CV .pdf**
   Looks it could be possible [link](https://jekyllrb.com/docs/posts/#including-images-and-resources).
 - [] **Button return to top in long posts**

@@ -8,6 +8,7 @@ tags:
   - update
 toc: true
 toc_sticky: true
+mathjax: true
 ---
 
 Hello World 😀!
@@ -35,9 +36,9 @@ end
 print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 ```
-# Math playground
-When $a \ne 0$, there are two solutions to \(ax^2 + bx + c = 0\) and they are
-$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+# Math playground.
+When $a \ne 0$, there are two solutions to $ax^2 + bx + c = 0$ and they are:
+\[x = {-b \pm \sqrt{b^2-4ac} \over 2a}\]
 
 # Toggle list test
 <details>
